@@ -45,7 +45,7 @@ my_programming_language = "Python"
 # int: Whole numbers, positive or negative, of arbitrary length
 x = 10
 # float: Positive or negative number containing one or more decimals
-y = 37.43
+y = 3.14
 # complex: Numbers with an imaginary component, denoted with a j
 z = 3j
 
@@ -60,10 +60,12 @@ print("x = x + 10 :", x)
 # Execution will be paused until input is provided
 print("Enter your name")
 name = input()
+print("name is of class ", type(name))
 
 # A string can be passed to the input function
 # That string will be printed ON the input line
 age = input("Enter your age: ")
+print("age is of class ", type(name))
 
 # Input is read as a String
 print("Hello " + name + ", you are " + age + " years old")
@@ -75,3 +77,4 @@ print("you will be ", answer)
 print("you will be ", (int(age) + 30))
 # or
 age = int(input("Enter your age: "))
+print("age is of class ", type(age))
